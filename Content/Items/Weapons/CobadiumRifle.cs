@@ -23,9 +23,9 @@ namespace CalRemix.Content.Items.Weapons
 			Item.height = 24;
 			Item.rare = ItemRarityID.LightRed;
 			Item.value = CalamityGlobalItem.RarityLightRedBuyPrice;
-            Item.useTime = 30; 
-			Item.useAnimation = 70;
-			Item.reuseDelay = 70;
+            Item.useTime = 17; 
+			Item.useAnimation = 34;
+			Item.reuseDelay = 40;
 			Item.useStyle = ItemUseStyleID.Shoot;
 			Item.autoReuse = true;
 			Item.UseSound = SoundID.Item99;
