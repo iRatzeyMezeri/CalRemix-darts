@@ -58,6 +58,7 @@ namespace CalRemix.Content.Items.Bags
             itemLoot.Add(ModContent.ItemType<SoulofIonogen>());
             itemLoot.Add(ModContent.ItemType<ScrapBag>());
             itemLoot.Add(ModContent.ItemType<ExtensionCable>());
+            itemLoot.Add(ModContent.ItemType<Shocktrain>());
             itemLoot.AddRevBagAccessories();
         }
         public override void RightClick(Player player)
