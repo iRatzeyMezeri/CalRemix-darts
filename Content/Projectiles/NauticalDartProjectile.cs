@@ -26,13 +26,13 @@ namespace CalRemix.Content.Projectiles
 
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
-            int time = Projectile.ai[2] == 1 ? 600 : 120;
+            int time = Projectile.ai[2] == 1 ? 600 : 240;
             target.AddBuff(ModContent.BuffType<Eutrophication>(), time);
         }
 
         public override void OnHitPlayer(Player target, Player.HurtInfo info)
         {
-            int time = Projectile.ai[2] == 1 ? 600 : 120;
+            int time = Projectile.ai[2] == 1 ? 600 : 240;
             target.AddBuff(ModContent.BuffType<Eutrophication>(), time);
         }
     }
