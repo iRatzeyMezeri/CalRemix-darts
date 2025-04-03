@@ -121,6 +121,7 @@ namespace CalRemix
         public bool witherDebuff = false;
         public int wither = 0;
         public int shreadedLungs = 0;
+        public int mysticDischrage = 0;
         public int taintedInferno = 0;
         public bool taintedInvis = false;
         public int clawed = 0;
@@ -1783,6 +1784,18 @@ namespace CalRemix
                 if (damage < 12)
                 {
                     damage = 12;
+                }
+            }
+            if (mysticDischarge > 0)
+            {
+                if (npc.lifeRegen > 0)
+                {
+                    npc.lifeRegen = 0;
+                }
+                npc.lifeRegen -= 8;
+                if (damage < 8)
+                {
+                    damage = 8;
                 }
             }
             if (taintedInferno > 0)
