@@ -9,7 +9,7 @@ using Terraria.DataStructures;
 
 namespace CalRemix.Content.Items.Weapons
 {
-	public class AcesLow : ModItem
+	public class Dayboom : ModItem
 	{
 		public override void SetStaticDefaults() 
 		{
