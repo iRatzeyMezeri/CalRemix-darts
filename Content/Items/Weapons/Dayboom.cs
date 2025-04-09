@@ -24,18 +24,18 @@ namespace CalRemix.Content.Items.Weapons
 			Item.height = 36;
 			Item.rare = ItemRarityID.Blue;
 			Item.value = CalamityGlobalItem.RarityGreenBuyPrice;
-            Item.useTime = 12; 
-			Item.useAnimation = 60;
-			Item.reuseDelay = 60;
+            Item.useTime = 8; 
+			Item.useAnimation = 40;
+			Item.reuseDelay = 40;
 			Item.useStyle = ItemUseStyleID.Shoot;
-			Item.autoReuse = true;
+			Item.autoReuse = false;
 			Item.UseSound = SoundID.Item111;
 			Item.DamageType = DamageClass.Ranged;
-			Item.damage = 3;
+			Item.damage = 7;
 			Item.knockBack = 1f; 
 			Item.noMelee = true;
 			Item.shoot = ModContent.ProjectileType<DayboomFlower>();
-			Item.shootSpeed = 8f;
+			Item.shootSpeed = 3f;
 			Item.useAmmo = ItemID.Daybloom;
             Item.consumeAmmoOnFirstShotOnly = true;
         }
