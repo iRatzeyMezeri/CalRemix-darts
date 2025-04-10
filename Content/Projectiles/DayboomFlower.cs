@@ -14,8 +14,8 @@ namespace CalRemix.Content.Projectiles
         }
         public override void SetDefaults()
         {
-            Projectile.CloneDefaults(ProjectileID.BulletFriendly);
-            AIType = ProjectileID.BulletFriendly;
+            Projectile.CloneDefaults(ProjectileID.Bullet);
+            AIType = ProjectileID.Bullet;
         }
 
         public override void AI()
